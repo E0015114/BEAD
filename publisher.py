@@ -4,7 +4,7 @@ from google.cloud import pubsub_v1
 
 # Your variables
 project_id = "qwiklabs-gcp-00-635a13fcfddb"
-topic_id = "lta-carpark-availability"
+topic_id = "MyTopic"
 lta_api_url = "https://datamall2.mytransport.sg/ltaodataservice/CarParkAvailabilityv2"
 lta_api_key = "7GQ4fcMqRTuEm4Tb681Y6A=="
 
