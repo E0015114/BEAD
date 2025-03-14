@@ -9,7 +9,7 @@ lta_api_url = "https://datamall2.mytransport.sg/ltaodataservice/CarParkAvailabil
 lta_api_key = "7GQ4fcMqRTuEm4Tb681Y6A=="
 
 # Set up Pub/Sub client (ensure the service account JSON file is provided)
-publisher = pubsub_v1.PublisherClient.from_service_account_file('path_to_your_service_account.json')
+publisher = pubsub_v1.PublisherClient()
 topic_path = publisher.topic_path(project_id, topic_id)
 
 # Fetch data from LTA API
