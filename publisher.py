@@ -3,7 +3,7 @@ import json
 from google.cloud import pubsub_v1
 
 # Your variables
-project_id = "qwiklabs-gcp-00-f8b9a2acad93"
+project_id = "qwiklabs-gcp-00-635a13fcfddb"
 topic_id = "lta-carpark-availability"
 lta_api_url = "https://datamall2.mytransport.sg/ltaodataservice/CarParkAvailabilityv2"
 lta_api_key = "7GQ4fcMqRTuEm4Tb681Y6A=="
